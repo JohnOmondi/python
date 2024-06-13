@@ -22,8 +22,8 @@ else:
 
 #a python program that checks whether a number is even or odd
 
-num = int(input("2: "))
-if (num % 2) == 0:
-   print("{0} is Even".format(num))
+number = 3
+if number % 2 == 0:
+    print("even")
 else:
-   print("{0} is Odd".format(num))
+    print("odd")
